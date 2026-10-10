@@ -1,0 +1,38 @@
+
+@font-face {font-family: gent; src: url(gentium400.woff2); font-style: normal; font-weight: normal;}
+@font-face {font-family: gent; src: url(gentium401.woff2); font-style: italic; font-weight: normal;}
+@font-face {font-family: gent; src: url(gentium800.woff2); font-style: normal; font-weight: bold;}
+@font-face {font-family: gent; src: url(gentium801.woff2); font-style: italic; font-weight: bold;}
+
+body {
+background: #ffffff; color: #314158; /*slate700*/
+font: 1rem/1.5 gent, sans-serif;
+hyphens: auto;
+margin: 0 auto; max-width: 40rem; padding: 0 1rem;
+}
+
+a {text-decoration: underline dotted;}
+a:link, a:visited {color: #0069a8;} /*sky700*/
+a:hover, a:focus {color: #c70036;} /*rose700*/
+
+figure {margin: 1rem 0;} figcaption {font-size: small; text-align: center;}
+
+h1, h2 {color: #c70036; text-transform: uppercase;} h1 {font-size: 150%;} h2 {font-size: 120%;}
+
+ul li::marker {content: "• ";}
+
+table {border-collapse: collapse; margin: 1rem 0; table-layout: fixed; width: 100%;}
+th, td {border: thin solid #cad5e2; padding: 0.2rem 0.5rem; vertical-align: top;} /*slate300*/
+tr:hover {background: #f1f5f9;} /*slate100*/
+
+.breadcrumbs {list-style: none; padding: 0;}
+.breadcrumbs li {display: inline;}
+.breadcrumbs li+li:before {content: " » ";}
+
+.col2 {columns: 2;} .col3 {columns: 3;}
+.footer {font-size: small; text-align: center;}
+.hang {margin: 1rem 0;} .hang p {margin: 0; padding: 0 0 0 1rem; text-indent: -1rem;}
+
+.flatlist {margin: 1rem 0;}
+.flatlist p {display: inline;}
+.flatlist p+p:before {content: " | ";}
